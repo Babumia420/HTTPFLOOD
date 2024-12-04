@@ -33,6 +33,9 @@ Using Golang(net/socket) to httpflood
 
 Then:
 
+    pkg install git 
+    pkg install python
+    pkg install golang
     git clone https://github.com/Babumia420/HTTPFLOOD
 
 Header.txt format:
